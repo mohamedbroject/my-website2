@@ -1,0 +1,19 @@
+@import url("./home.css");
+.div{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height:auto;
+    text-align: center;
+    border-bottom: var(--border-style) var(--bordercolor) var( --borderthickness);
+
+    
+}
+
+.text{
+    background-color: rgb(233, 206, 206);
+    width: 90%;
+    height: 1000px;
+    border-bottom: var(--border-style) var(--bordercolor) var( --borderthickness);
+
+
+}

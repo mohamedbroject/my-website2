@@ -1,0 +1,20 @@
+@import url("./home.css");
+.topp{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 81px;
+    border-bottom: var(--border-style) var(--bordercolor) var( --borderthickness);
+}
+.topp div{
+    width: 80%;
+    height: 81px;
+    background-color: rgb(255, 255, 255);
+    float:center;
+    }
+    
+.topp h1{
+        float:left;
+    }
+.topp h4{
+        float:left;
+    }

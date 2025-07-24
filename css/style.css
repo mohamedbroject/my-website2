@@ -1,0 +1,746 @@
+@import url(./css/home.css);
+body{
+    background-color:  rgba(255, 255, 255, 0.342);
+overflow-x: hidden;
+}
+
+.navtop{
+width: 100%;
+height: 80px;
+position: fixed;
+top: 0px;
+background-color: white;
+border-bottom: var(--border-style)var(--bordercolor)var(--borderthickness);
+z-index: 99999999;
+}
+.navtop .nav{
+width: 90%;
+height: 80px;
+margin: 0px auto ;
+background-color: white;
+}
+.navtop div .imege{
+width: 140px ;
+height:50px ;
+float: left;
+margin: 10px;
+}    
+.navtop div .imege img{
+    float: left;
+}
+
+.navtop div .QuickLinks{
+width: 710px;
+height: 70px;
+float: left;
+line-height: 70px;
+margin-left: 90px;
+color: var(--linkcolor);
+}
+.navtop div .QuickLinks .home{
+ width: 80px;
+ height: 29px; 
+ float: left;  
+ margin-left: 40px;
+
+}
+.home .AA{
+    width: 900px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    position:relative ;
+    top: 0px;
+
+visibility: hidden;
+}
+.home:hover .AA{
+visibility: visible;
+}
+.home .AA img{
+width: 200px;
+height: 300px;
+float: left;
+margin-left: 50px;
+
+}
+
+.navtop div .QuickLinks .shop{
+    width: 65px;
+    height: 80px; 
+    float: left;  
+    
+}
+.shop .bb{
+    width: 1000px;
+    height: 700px;
+background-color: rgb(255, 255, 255);
+    position:absolute ;
+    top: 60px;
+    left: 30px;
+visibility: hidden;
+}
+.shop:hover .bb{
+    visibility: visible;
+}
+
+.QuickLinks .shop .bb .text-111{
+width: 100%;
+height: 700px;
+}
+.QuickLinks .shop .bb .lift-text{
+width: 180px;
+height: 300px;
+float: left;
+}
+.shop .bb .lift-text ul li {
+  width: auto;
+  height: 30px;
+  position: relative;
+}
+.QuickLinks .shop .bb .center-text{
+    width: 180px;
+    height: 300px;
+    float: left;
+margin-left: 40px;
+}
+    .shop .bb .center-text ul li {
+      width: auto;
+      height: 30px;
+      position: relative;
+    }
+    .QuickLinks .shop .bb .right-text{
+        width: 180px;
+        height: 300px;
+        float: left;
+    margin-left: 40px;
+    }
+        .shop .bb .right-text ul li {
+          width: auto;
+          height: 30px;
+          position: relative;
+        }
+.text-111 img{
+width: 350px;
+height: 600px;
+float: right;
+margin: 10px;
+margin-top: 30px;
+border-radius: 40px;
+} 
+.text-111 .print{
+width: 620px;
+height: 200px;
+position: absolute;
+bottom: 90px;
+}
+.text-111 .print .ppp{
+width:340px ;
+height:100px ;
+float: left;
+font-size: 14px;
+position: relative;
+margin-top: 30px;
+bottom: 120px;
+color: rgba(0, 0, 0, 0.548);
+line-height: 30px;}
+
+.text-111 .print .time{
+width: 280px;
+height: 200px;
+float: left;
+position: relative;
+bottom: 120px;
+}
+.text-111 .print .time .day{
+width: 60px;
+height: 80px;
+float: left;
+
+margin: 10px;
+margin-left: 10px;
+}
+.text-111 .print .time .Hours{
+    width: 60px;
+    height: 80px;
+    float: left;
+    margin: 10px;
+    margin-left: 10px;
+    }.text-111 .print .time .Minutess{
+        width: 60px;
+        height: 80px;
+        float: left;
+        margin: 10px;
+        margin-left: 10px;
+        }
+    
+
+
+
+
+
+
+
+.navtop div .QuickLinks .blog{
+width: auto;
+height: 70px;
+float: left;
+}
+.navtop div .QuickLinks .postlayout{
+    width: auto;
+    height: 70px;
+    float: left;
+}
+.navtop div .QuickLinks .portfolio{
+    width: auto;
+    height: 70px;
+    float: left;
+}
+.navtop div .QuickLinks .pages{
+    width: auto;
+    height: 70px;
+    float: left;
+}
+.navtop div .QuickLinks .myaccount{
+    width: auto;
+    height: 70px;
+    float: left;
+   
+}
+.navtop div .QuickLinks a{
+text-decoration: none;
+margin: 15px;
+color: var(--linkcolor);
+}       
+.navtop div .QuickLinks a:hover{
+background-color: var(--linkhovercolor);
+}
+.navtop div .QuickLinks a::selection{
+background-color: var(--linkhovercolor);
+}
+
+.fullsection{
+width: 100%;
+height: 600px;
+margin-top: 100px;
+}
+.fullsection .section-1{
+width: 40%;
+height: 580px;
+float: left;
+margin-top: 20px;
+}
+
+.fullsection .section-1 .vdf{
+width: 500px;
+height: 600px;
+}
+
+.fullsection .section-1 .vdf .TEXTsection{
+width: 450px;
+height: 160px;
+float: left;
+font-size: 60px;
+margin-left: 70px;
+}
+.fullsection .section-1 .vdf .price{
+    width: 100px;
+    height: 15px;
+    font-size: 15px;
+    margin-left: 80px;
+margin-top: 30px;
+}
+    .fullsection .section-1 .vdf .mony{
+        width: 120px;
+        height: auto;
+        font-size: 20px;
+        margin-left: 80px;
+        margin-top: 50px;
+}
+.section-1 .ts{
+    width: 120px;
+    height: auto;
+    }    
+.carts{
+width: 400px;
+height: auto;
+float: left;
+margin-left: 80px;
+}
+
+.cart{
+    width: 179px;
+    height: 51px;
+    float: left;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    }
+    .cart2{
+    width: 179px;
+    height: 51px;
+    float: left;
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    transition: all 1s;
+    border-radius: 10px;
+}
+    .cart2:hover{
+    background-color: black;
+    color: white;
+}
+.section-1 .vdf .contaner{
+width: 340px;
+height: auto;
+margin-top: 90px;
+margin-left: 80px;
+float: left;
+}
+.section-2{
+width: 60%;
+height: 600px;
+float: right;
+position: relative;
+}
+.section-2 .star{
+width: 74px;
+height: 74px;
+float: left;
+
+}
+.section-2 .star img{
+    width: 74px;
+    height: 74px;
+float: left;
+}
+.section-2 .circle{
+width: 140px;
+height: 140px;
+margin-top: 400px;
+float: left;
+}
+.section-2 .circle img{
+    width: 140px;
+    height: 140px;
+    float: left;
+}
+
+
+.section-2 .baner-media img{
+    width: 300px;
+    height: 400px;
+    float: left;
+    position: absolute;
+    left: 660px;
+    top: 100px;
+    border-top-left-radius: 40px;
+            border-top-right-radius: 40px;
+}
+
+.fullsection .section-2  .baner-1{
+    width: 400px;
+    height: 500px;
+    float: left;
+    margin-bottom: 600px;
+}
+.section-2  .baner-1 .pohto{
+        width: 400px;
+        height: 500px;
+        float: left;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+
+}
+.section-2  .baner-1 .white{
+width: 51px;
+height: 170px;
+float: right;
+position: relative;
+bottom: 150px;
+left: 10px;
+}
+.section-2  .baner-1 .white .button {
+width: 50px;
+height: 50px;
+float: right;
+position: absolute;
+bottom: 75px;
+right: 0px;
+}
+.section-2  .baner-1 .white .button img{
+    width: 60px;
+    height: 60px;
+    float: right;
+    position: relative;
+left: 20px;
+}
+
+
+
+
+
+
+
+
+
+.position{
+width: 100%;
+height: 390px;
+}
+.position .yellow{
+    width: 60%;
+    height: 394px;
+    background-color:rgba(254, 235, 157, 1);
+    margin-top: 70px;
+    float: left;
+}
+
+.yellow .pohtos{
+width: auto;
+height: 360px;
+margin-top: 0px;
+position: relative;
+}
+.position .black{
+    width: 40%;
+    height: 394px;
+    background-color:rgb(0, 0, 0);
+    margin-top: 70px;
+    float:left ;
+}
+.yellow .pohtos .vx {
+width: 400px;
+height: 50px;
+position: absolute;
+top: 0px;
+left: 40px;
+}
+.yellow .pohtos .vx img{
+    width: 400px;
+    height: 50px;
+    margin-top: -10px;
+}
+.yellow .pohtos .Photo-1{
+    width: 200px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 64px;
+    float: left;
+}
+.yellow .pohtos .Photo-1 .shirts{
+    width: 120px;
+    height: 51px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    }
+.yellow .pohtos .Photo-1 .shirts button{
+    width: 87px;
+    height: 34px;
+    border-radius: 30px;
+
+}
+.yellow .pohtos .Photo-2 {
+        width: 170px;
+        height: auto;
+        margin-top: 64px;
+margin-left: 20px;
+        float: left;
+
+}
+.yellow .pohtos .Photo-2 img{
+    width: 160px;
+    height: 130px;
+}
+.yellow .pohtos .Photo-2 .shorts{
+    width: 120px;
+    height: 51px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+     margin-left: 40px;
+}
+.yellow .pohtos .Photo-2 .shorts button{
+            width: 87px;
+            height: 34px;
+            border-radius: 30px;
+        margin-top: 40px;
+}
+.yellow .pohtos .Photo-3 {
+    width: 170px;
+    height: auto;
+    margin-top: 64px;
+margin-left: 20px;
+float: left;
+}
+.yellow .pohtos .Photo-3 img{
+width: 160px;
+height: 130px;
+}
+.yellow .pohtos .Photo-3 .shorts{
+width: 120px;
+height: 51px;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+ margin-left: 40px;
+}
+.yellow .pohtos .Photo-3 .shirt button{
+        width: 87px;
+        height: 34px;
+        border-radius: 30px;
+        margin-left: 40px;
+    margin-top: 40px;
+}
+.black img {
+    width: auto;
+    height: auto;
+    margin-left: 120px;
+    margin-top: 50px;
+} 
+
+
+
+
+
+.contaner-2{
+width: 100%;
+height: 700px;
+margin-top: 200px;
+}
+.contaner-2 .center{
+width: 90%;
+height: 600px;
+margin: auto;
+}
+.contaner-2 .center img{
+width: 600px;
+height: 500px;
+float: left;
+margin-top: 10px;
+margin-left: 10px;
+}
+.contaner-2 .center .text-set{
+width: 500PX;
+height: 300px;
+background-color: rgb(255, 255, 255);
+float: left;
+margin-left: 20px;
+margin-top: 30px;
+font-size: 40px;
+}
+.contaner-2 .center .Lorem{
+width: 500px;
+height: 200px;
+margin-top: 10px;
+background-color: rgb(255, 255, 255);
+font-size: 25px;
+}
+
+
+marquee{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+border-color:var(--bordercolor);
+border-style: var(--border-style);
+}
+    marquee div{
+    margin-top:50px;
+ }
+.div-foter{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    border-top:solid black;
+    }
+    .input{
+    background-color: rgba(254, 235, 157, 1);
+    width: 18.75em;
+    height: 3.4em;
+}
+    
+
+/*--------------- Media Querie --------------- */
+ 
+@media(max-width:500px) {
+.section-1 .vdf .contaner{
+display: none;
+}
+.navtop div .QuickLinks{
+display: none;
+}
+.section-2 .star{
+display: none;
+}
+.section-2 .circle{
+display: none;    
+}
+.section-2 .circle img{
+display: none;
+}
+.yellow .pohtos .Photo-3 {
+    display: none;
+ }
+/* ----------display: none;---------- */
+
+ .navtop{
+width: 100%;
+height: 10vh;
+
+}
+.navtop .nav{
+width: 90%;
+height: 10vh;
+}
+
+.fullsection{
+width: 100%;
+height: 100vh;
+margin-top: 80px;
+}
+.fullsection .section-1{
+    width: 100%;
+    height: 50vh;
+    float: left;
+    margin-top: 0px;
+    background-color: aqua;
+}
+.fullsection .section-1 .vdf{
+    width: 500px;
+    height: 100vh;
+}
+.fullsection .section-1 .vdf .TEXTsection{
+    width: 450px;
+    height: 160px;
+    float: left;
+    font-size: 40px;
+    margin-left: 0px;
+}    
+.fullsection .section-1 .vdf .price{
+width: 100px;
+height: 15px;
+font-size: 15px;
+margin-left: 0px;
+margin-top: 70px;
+position: relative;
+}
+.fullsection .section-1 .vdf .price h4{
+width: 100px;
+height: 15px;   
+ font-size: 15px;
+ position: absolute;
+}
+.fullsection .section-1 .vdf .mony{
+    width: 120px;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: relative;
+}
+.fullsection .section-1 .vdf .mony h1{
+margin-top: 0px;
+font-size: 30px;
+position: absolute;
+}
+.carts{
+width: 400px;
+height: 80px;
+float: left;
+margin-left: 0px;
+position: relative;
+}
+.carts .cart{
+    width: 179px;
+    height: 51px;
+    float: left;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+}
+.carts .cart2{
+    width: 179px;
+    height: 51px;
+    float: left;
+    margin-left: 0px;
+    background-color: white;
+    color: black;
+    transition: all 1s;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+.cart2:hover{
+    background-color: black;
+    color: white;
+}
+.section-2{
+    width: 100%;
+    height:100vh;
+    float: left;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+.fullsection .section-2  .baner-1{
+    width: 400px;
+    height: 500px;
+    float: left;
+    margin-bottom: 0px;
+    position: absolute;
+}
+.section-2  .baner-1 .pohto{
+    width: 320px;
+    height: 500px;
+    border-radius: 40px;
+    float: left;
+}
+.position{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 300px;
+    background-color: brown;
+
+
+}
+.position .yellow{
+    width: 100%;
+    height: 380px;
+    margin-top: 0px;
+    background-color:rgba(254, 235, 157, 1);
+    position: absolute;
+}
+.position .black{
+    width: 100%;
+    height: 280px;
+margin-top: 380px;
+    background-color:rgb(0, 0, 0);
+position: absolute;
+}
+.black img {
+    width: 340px;
+    height: 380px;
+    margin-top: -30px;
+    margin-left: 30px;
+} 
+.yellow .pohtos .vx {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+    .yellow .pohtos .vx img{
+        width: 200px;
+        height: 50px;
+        margin-top: -15px;
+}
+
+
+}
+
+
+
+    

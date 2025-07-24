@@ -1,0 +1,21 @@
+*{
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+
+}
+
+:root{
+    --border-style:solid;
+    --bordercolor:rgba(63, 63, 63, 0.753);
+    --borderthickness:1px;
+    
+    --linkcolor:rgba(0, 0, 0, 1);
+    --linkhovercolor:red;
+    --linkcolorselection:red;  
+
+
+   
+    --font-family: Inter, sans-serif;
+    --font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */    
+}

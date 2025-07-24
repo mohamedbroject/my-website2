@@ -1,0 +1,284 @@
+@import url("./home.css");
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.navtop{
+width: 100%;
+height: 80px;
+position: fixed;
+top: 0px;
+background-color: white;
+border-bottom: var(--border-style)var(--bordercolor)var(--borderthickness);
+
+}
+.navtop .nav{
+width: 90%;
+height: 80px;
+background-color: aqua;
+margin: 0px auto ;
+
+}
+.navtop div .imege{
+width: 60px ;
+height:50px ;
+float: left;
+margin: 10px;
+}    
+.navtop div .imege img{
+    margin-left: 20px;
+}
+
+.navtop div .QuickLinks{
+width: 710px;
+height: 70px;
+float: left;
+line-height: 70px;
+margin-left: 90px;
+color: var(--linkcolor);
+}
+.navtop div .QuickLinks .home{
+ width: 63px;
+ height: 29px; 
+ float: left;  
+ margin-left: 40px;
+
+}
+.home .AA{
+    width: 700px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    position:relative ;
+    top: 0px;
+    
+    
+
+visibility: hidden;
+}
+.home:hover .AA{
+visibility: visible;
+}
+.navtop div .QuickLinks .shop{
+    width: auto;
+    height: 70px; 
+    float: left;  
+   
+}
+
+.navtop div .QuickLinks .blog{
+width: auto;
+height: 70px;
+float: left;
+}
+.navtop div .QuickLinks .postlayout{
+    width: auto;
+    height: 70px;
+    float: left;
+}
+.navtop div .QuickLinks .portfolio{
+    width: auto;
+    height: 70px;
+    float: left;
+}
+.navtop div .QuickLinks .pages{
+    width: auto;
+    height: 70px;
+    float: left;
+}
+.navtop div .QuickLinks .myaccount{
+    width: auto;
+    height: 70px;
+    float: left;
+   
+}
+.navtop div .QuickLinks a{
+text-decoration: none;
+margin: 15px;
+color: var(--linkcolor);
+}       
+.navtop div .QuickLinks a:hover{
+background-color: var(--linkhovercolor);
+}
+.navtop div .QuickLinks a::selection{
+background-color: var(--linkhovercolor);
+}
+.navtop div .search{
+width: 120px;
+height: 70px;
+float: left;
+margin-top: 20px;
+}
+
+.cart{
+width: 179px;
+height: 51px;
+background-color: black;
+color: white;
+border-radius: 10px;
+}
+.cart2{
+width: 179px;
+height: 51px;
+margin-left: 10px;
+background-color: white;
+color: black;
+transition: all 1s;
+border-radius: 10px;
+}
+.cart2:hover{
+background-color: black;
+color: white;
+}
+
+.top h1{
+    float:left;}
+.top h4{
+    float:left;
+}
+.fallsection{
+width: 100%;
+height: 800px;
+background-color: rgb(255, 255, 255);
+margin-left: 5%;
+float: left;
+}
+.fallsection .section{
+width: 700px;
+height: 700px;
+background-color: rgb(255, 255, 255);
+float: left;
+margin-top: 90PX;
+font-size:30PX;
+}
+.fallsection img{
+width: 30px;
+height: 30px;
+margin-left: 10px;
+margin-top: 90px;
+}
+
+.fallsection .section-2{
+width: 500px;
+height: auto;
+background-color: rgb(255, 255, 255);
+float: right;
+margin-top: 90px;
+}
+.fallsection .section-2 .baner{
+    width: 500px;
+    height: 600px;
+    border-radius: 40px;
+    margin-top: 0px;
+ 
+}
+.fallsection .section img:nth-child(1){
+width: 40px;
+height:40px ;
+float: right;
+margin-right: 100px;
+margin-top: 20px;
+}
+.fallsection .section img:nth-child(2){
+width: auto;
+height: auto;
+float: left;
+position: absolute;
+bottom: 10px;
+}
+.fallsection .section img:nth-child(3){
+width: auto;
+height: auto;
+float: right;
+position: absolute;
+bottom: 20px;
+right: 500px;
+}
+
+.yellow{
+width: 800px;
+height: 394px;
+background-color:rgba(254, 235, 157, 1);
+margin-top: 80px;
+float: left;
+}
+.black{
+width: 450px;
+height: 394px;
+background-color:rgb(0, 0, 0);
+margin-top: 80px;
+float:left ;
+}
+
+.yellow .Photo-1{
+width: 200px;
+height: auto;
+float: left;
+margin: 30px;
+margin-left: 30px;
+}
+.yellow .Photo-1 .shirts{
+width: 120px;
+height: 51px;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius: 30px;
+margin-left: 60px;
+}
+.yellow .Photo-1{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin: 30px;
+    margin-left: 30px;
+    }
+.yellow .Photo-2 .shorts{
+    width: 120px;
+    height: 51px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-left: 100px;
+    }
+.black img {
+width: auto;
+height: auto;
+margin-left: 120px;
+margin-top: 50px;
+}   
+
+marquee{
+width: 100%;
+height: 112px;
+margin-top: 120px;
+border: var(--border-style)var(--bordercolor)var(--borderthickness);
+}
+marquee div{
+margin-top:50px;
+}
+
+.div-foter{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    border-top:solid black;
+    }
+    .input{
+    background-color: rgba(254, 235, 157, 1);
+    width: 18.75em;
+    height: 3.4em;
+}
+.home .home-1{
+width: 230px;
+height: 300px;
+float: left;
+margin: 10px;
+position: relative;
+}
+.home .home-2{
+width: 230px;
+height: 300px;
+float: left;
+margin: 10px;
+position: absolute;
+}
