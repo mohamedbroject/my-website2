@@ -577,7 +577,10 @@ html, body {
 body {
   overflow-x: hidden;
 }
+.baner-media{
+display: none;
 
+}
     *{
         margin: 0px;
     }
